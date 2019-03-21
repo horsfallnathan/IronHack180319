@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 
+    
+    */
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    background-color: #3d83d8;
+    color: #fff;
+    cursor: pointer;
+    transition: 250ms all ease-in-out;
+    /* 
+    The transition takes 3 values duration, object(or property eg just background-color) to affect and then how it is applied (called timing functions eg. linear, starts and stays the same; )
+    */
+}
+
+button:hover {
+    background-color: #f33005;
+    transform: translate(-50%, -40%) scale(1.1);
+    /*
+    Translate takes two values (x, y) can be px or % of its size
+    Transform, can be translation, rotation or scaling
+    */
+}
+
+button:active {
+    background-color: #000000;
+}
+
+.buy-btn {
+    top: 30%;
+    background-color: #85fe8a;
+    animation-name: buyNowAnimation;
+    animation-play-state: running;
+    animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-delay: 50ms;
+}
