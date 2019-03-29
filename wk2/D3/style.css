@@ -1,0 +1,20 @@
+header {
+    background-image: url('https://images.unsplash.com/photo-1485796826113-174aa68fd81b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-text {
+    text-align: center;
+}
+.carousel-inner {
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
